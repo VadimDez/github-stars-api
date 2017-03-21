@@ -1,0 +1,20 @@
+{
+  "name": "github-stars-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "redis": "^2.7.1",
+    "response-time": "^2.3.2"
+  }
+}

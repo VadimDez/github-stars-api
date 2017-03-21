@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  Redis:
+    image: redis:latest
+    ports:
+    - 6379:6379
+    volumes:
+    - ./data:/data
