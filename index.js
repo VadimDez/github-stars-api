@@ -7,7 +7,7 @@ let resposeTime = require('response-time');
 let axios = require('axios');
 let redis = require('redis');
 
-let redisClient = redis.createClient();
+let redisClient = redis.createClient(6379, 'Redis');
 
 redisClient.on('error', err => {
   console.log('Redis Error: ' + err);
